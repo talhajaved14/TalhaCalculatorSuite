@@ -1,0 +1,166 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Default (Dark Glass Mode) */
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.5s, color 0.5s;
+}
+
+/* Light Glass Mode */
+body.light-mode {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  color: #000;
+}
+
+/* Header */
+header {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: inherit;
+  text-shadow: 0 0 8px rgba(255,255,255,0.6);
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+nav a:hover {
+  color: #00e0ff;
+  text-shadow: 0 0 8px #00e0ff;
+}
+
+/* Dark Mode Toggle Button */
+#darkModeToggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+/* Container */
+.container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Glassy Cards */
+.calc-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 15px;
+  width: 320px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.calc-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.6);
+}
+
+.calc-card h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #00e0ff;
+  text-shadow: 0 0 6px #00e0ff;
+}
+
+.calc-card input, .calc-card button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.calc-card input {
+  background: rgba(255,255,255,0.15);
+  color: inherit;
+}
+
+.calc-card button {
+  background: linear-gradient(135deg, #00e0ff, #0077ff);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.calc-card button:hover {
+  background: linear-gradient(135deg, #0077ff, #00e0ff);
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: inherit;
+  margin: 0 8px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #00e0ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .calc-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+}

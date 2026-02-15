@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math Calculators</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <h1>Talha Calculator Suite</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="math.html">Math</a>
+    <a href="finance.html">Finance</a>
+    <a href="health.html">Health</a>
+    <a href="conversions.html">Conversions</a>
+    <a href="science.html">Science</a>
+    <a href="daily.html">Daily Life</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+  <header><h1>Math Calculators</h1></header>
+  <main class="container">
+    <section class="calc-card">
+      <h3>Percentage Calculator</h3>
+      <input type="number" id="part" placeholder="Part">
+      <input type="number" id="whole" placeholder="Whole">
+      <button onclick="calcPercent()">Calculate</button>
+      <p id="percentResult"></p>
+    </section>
+
+    <section class="calc-card">
+      <h3>Ratio Calculator</h3>
+      <input type="number" id="ratioA" placeholder="Value A">
+      <input type="number" id="ratioB" placeholder="Value B">
+      <button onclick="document.getElementById('ratioResult').innerText = calcRatio(ratioA.value, ratioB.value)">Calculate</button>
+      <p id="ratioResult"></p>
+    </section>
+  </main>
+<script src="../js/calculators.js"></script>
+</body>
+<footer>
+  <p>&copy; 2026 Talha Calculator Suite</p>
+  <a href="privacy.html">Privacy Policy</a> |
+  <a href="terms.html">Terms</a> |
+  <a href="contact.html">Contact</a> |
+  <a href="about.html">About Us</a>
+</footer>
+</html>

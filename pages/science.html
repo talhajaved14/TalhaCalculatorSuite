@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Physics Calculators</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+ <header>
+  <h1>Talha Calculator Suite</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="math.html">Math</a>
+    <a href="finance.html">Finance</a>
+    <a href="health.html">Health</a>
+    <a href="conversions.html">Conversions</a>
+    <a href="science.html">Science</a>
+    <a href="daily.html">Daily Life</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <!-- Dark Mode Toggle -->
+  <button id="darkModeToggle">🌙</button>
+</header>
+
+  <main class="container">
+    <!-- Force Calculator -->
+    <section class="calc-card">
+      <h3>Force Calculator</h3>
+      <input type="number" id="mass" placeholder="Mass (kg)">
+      <input type="number" id="acceleration" placeholder="Acceleration (m/s²)">
+      <button onclick="calcForce()">Calculate</button>
+      <p id="forceResult"></p>
+    </section>
+
+    <!-- Pressure Calculator -->
+    <section class="calc-card">
+      <h3>Pressure Calculator</h3>
+      <input type="number" id="force" placeholder="Force (N)">
+      <input type="number" id="area" placeholder="Area (m²)">
+      <button onclick="calcPressure()">Calculate</button>
+      <p id="pressureResult"></p>
+    </section>
+  </main>
+
+  <!-- JavaScript file connection -->
+  <script src="../js/calculators.js"></script>
+</body>
+<footer>
+  <p>&copy; 2026 Talha Calculator Suite</p>
+  <a href="privacy.html">Privacy Policy</a> |
+  <a href="terms.html">Terms</a> |
+  <a href="contact.html">Contact</a> |
+  <a href="about.html">About Us</a>
+</footer>
+</html>

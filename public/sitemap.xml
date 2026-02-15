@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://talhacalculatorsuite.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Pages folder ke andar ke calculators -->
+  <url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/conversions.html</loc>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/daily.html</loc>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/finance.html</loc>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/health.html</loc>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/math.html</loc>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/privacy.html</loc>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/science.html</loc>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://talhacalculatorsuite.vercel.app/pages/terms.html</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversions</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <h1>Talha Calculator Suite</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="math.html">Math</a>
+    <a href="finance.html">Finance</a>
+    <a href="health.html">Health</a>
+    <a href="conversions.html">Conversions</a>
+    <a href="science.html">Science</a>
+    <a href="daily.html">Daily Life</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+  <header><h1>Conversion Calculators</h1></header>
+  <main class="container">
+    <section class="calc-card">
+      <h3>Celsius to Fahrenheit</h3>
+      <input type="number" id="celsius" placeholder="Celsius">
+      <button onclick="document.getElementById('cfResult').innerText = calcCtoF(celsius.value)">Convert</button>
+      <p id="cfResult"></p>
+    </section>
+  </main>
+<script src="../js/calculators.js"></script>
+</body>
+<footer>
+  <p>&copy; 2026 Talha Calculator Suite</p>
+  <a href="privacy.html">Privacy Policy</a> |
+  <a href="terms.html">Terms</a> |
+  <a href="contact.html">Contact</a> |
+  <a href="about.html">About Us</a>
+</footer>
+</html>

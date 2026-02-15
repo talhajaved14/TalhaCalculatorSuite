@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finance Calculator</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Finance Calculators</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="math.html">Math</a>
+      <a href="health.html">Health</a>
+      <a href="conversions.html">Conversions</a>
+      <a href="science.html">Science</a>
+      <a href="daily.html">Daily Life</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Loan EMI Calculator -->
+    <section class="calc-card">
+      <h3>Loan EMI Calculator</h3>
+      <input type="number" id="loanAmount" placeholder="Loan Amount">
+      <input type="number" id="interestRate" placeholder="Interest Rate (%)">
+      <input type="number" id="loanYears" placeholder="Years">
+      <button onclick="calcEMI()">Calculate</button>
+      <p id="emiResult"></p>
+    </section>
+  </main>
+  <!-- JavaScript file connection -->
+  <script src="../js/calculators.js"></script>
+</body>
+<footer>
+  <p>&copy; 2026 Talha Calculator Suite</p>
+  <a href="privacy.html">Privacy Policy</a> |
+  <a href="terms.html">Terms</a> |
+  <a href="contact.html">Contact</a> |
+  <a href="about.html">About Us</a>
+</footer>
+</html>
